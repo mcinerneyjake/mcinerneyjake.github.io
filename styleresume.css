@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #6a92b9;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+body {
+  margin: 0;
+  background: rgb(211, 210, 210);
+  color: black;
+  font: Arial, Helvetica, sans serif;
+  border: 2px solid black;
+  border-radius: 28px;
+}
+
+div.headerbox {
+  background: Gray;
+  height: auto;
+  width: auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.full-name {
+  display: flex;
+  position: relative;
+  width: auto;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: right;
+  font-style: bold;
+  padding-left: 180px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-style: bold;
+  background-color: rgb(211, 210, 210);
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+hr {
+  color: #111;
+  margin: none;
+}
+
+p.contact {
+  font: Arial, Helvetica, sans serif;
+  font-size: 20px;
+  font-style: bold;
+  text-align: left;
+  padding-left: 180px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  margin: 0px;
+}
+
+.headshot {
+  position: absolute;
+  padding: auto;
+  padding-left: 15px;
+  width: auto;
+  border-radius: 50%;
+  bottom: -80px;
+}
+
+.profile {
+  background: none;
+  border-radius: 50%;
+  height: auto;
+  width: 130px;
+  overflow: hidden;
+}
+
+.profile img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+p.job-title {
+  font-style: bold;
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+p.skills-and-interests {
+  padding-left: 45px;
+}
+
+.survey {
+  border: none;
+  margin: auto;
+  width: 150px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+p.recommend {
+  font: 18px;
+  text-align: center;
+}
+
+p.copyright {
+  font: 18px;
+  text-align: center;
+}
+
+#submit-container {
+  height: 20px;
+  position: relative;
+  border: none;
+}
+
+#submit {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a:link {
+  color: black;
+  background-color: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6a92b9;
+  background-color: none;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: none;
+  text-decoration: none;
+}
