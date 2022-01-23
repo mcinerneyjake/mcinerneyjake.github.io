@@ -23,24 +23,10 @@ function fn1() {
 // The following function was supposed to be a function that set a counter for each selection (e.g. "Total 'Very Likely' Clicks: 39")
 // that could be seen in the browser console. This could track the click data for each selection.
 
-function incrementValue() {
-  veryLikely = "0";
-  veryLikely++;
-  return veryLikely;
+var clickTracker = 0;
+var btn = document.getElementById("submit");
 
-  likely = "0";
-  likely++;
-  return likely;
-
-  const neutral = "0";
-  neutral++;
-  return neutral;
-
-  const unlikely = "0";
-  unlikely++;
-  return unlikely;
-
-  const veryUnlikely = "0";
-  veryUnlikely++;
-  return veryUnlikely;
-}
+btn.addEventListener("click", function () {
+  clickTracker = clickTracker + 1;
+  console.log(clickTracker);
+});
